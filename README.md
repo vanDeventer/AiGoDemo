@@ -38,11 +38,7 @@ It should be clear that the hardware list above is for a minimum.
 Since it is a distributed system set, one can have more Raspberry Pis, sensors and servos.
 
 ## Download
-The five applications can be found at [http://staff.www.ltu.se/~deventer/aigo/](http://staff.www.ltu.se/~deventer/aigo/).
-To get them using a terminal or command prompt, one uses [wget](https://en.wikipedia.org/wiki/Wget).
-By default, it is not installed on the RPI.
-To get it, one just needs to type ```sudo apt-get install wget```.
-One can simply type ```wget http://staff.www.ltu.se/~deventer/aigo/sr_rpi64``` for the Service Registrar.
+The five applications can be found in this repository, which you can clone.
 
 **Important**: each application must be placed in its own directory since the program generates a configuration file (and they have all the same file name) and the application must be started from the command prompt.
 
